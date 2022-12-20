@@ -1,0 +1,110 @@
+.navbar{
+    height: 80px;
+    justify-content: stretch;
+    background-color: rgb(255, 224, 52);
+    overflow: hidden;
+
+    
+    
+
+    .wrapper{
+        padding: 12px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: auto;
+
+
+
+        .item{
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            margin: auto;
+        }
+
+        .left{
+            display: flex;
+            align-items: stretch;
+            object-position: left bottom;
+            gap: 8px;
+            max-width: fit-content;
+            font-size: medium;
+            font-weight: 400;
+        
+           
+
+
+            img{
+                height: 40px;
+            }
+        }
+        .center{
+            font-size: 33px;
+            font-weight: 700;
+            justify-content: center;
+            position: relative;
+            right: 20px;
+            letter-spacing: 2px;
+            text-decoration: rgb(7, 153, 7);
+
+
+            span{
+                font-size: 10px;
+                color: palevioletred;
+            }
+
+        }
+        .right{
+            display: flex;
+            align-items: stretch;
+            gap: 8px;
+            max-width: fit-content;
+            font-size: small;
+            
+
+
+
+            .text{
+                display: flex;
+                justify-items: start;
+                position: relative;
+                gap: 5px;
+                font-size: 18px;
+                right: 15px;
+            }
+
+
+            .icons{
+                display: flex;
+                position: relative;
+                align-items: center;
+                gap: 3px;
+                max-width: 16px;
+                right: 10px;
+                color: rgb(8, 59, 8);
+                cursor: pointer;
+
+                .cartIcon{
+                    position: relative;
+                    span{
+                        font-size: 12px;
+                        font-weight: bold;
+                        width: 13px;
+                        height: 17px;
+                        border-radius: 80px;
+                        background-color: red;
+                        color: white;
+                        position: absolute;
+                        right: 13px;
+                        top: 9px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                    }
+                }
+            }
+        }
+    }
+}
