@@ -34,7 +34,7 @@ const Products = () => {
   return (
     <div className='products'>
       <div className="left">
-        <div className="filteritem">
+        <div className="filterItem">
           <h2>𝒫𝓇🍩𝒹𝓊𝒸𝓉 𝒞𝒶𝓉𝑒𝑔🌞𝓇𝓎</h2>
           {data?.map((item) => (
             <div className="inputItem" key={item.id}>
@@ -49,14 +49,9 @@ const Products = () => {
           ))}
           </div>
 
-          <div className="InputItem">
-            
-           
-          </div>
-
-        <div className="filteritem">
+        <div className="filterItem">
           <h2>𝐹𝒾𝓁𝓉𝑒𝓇 𝐵𝓎 𝒫𝓇𝒾𝒸𝑒 </h2>
-          <div className="InputItem">
+          <div className="inputItem">
             <span>0</span>
             <input 
               type="range" 
@@ -81,7 +76,7 @@ const Products = () => {
 
             <label htmlFor="asc" > 𝒫𝓇𝒾𝒸𝑒 (𝓁🐰𝓌𝑒𝓈𝓉 𝒻𝒾𝓇𝓈𝓉)</label>
           </div>
-          <div className="InputItem">
+          <div className="inputItem">
             <input
               type="radio" 
               id="desc" 

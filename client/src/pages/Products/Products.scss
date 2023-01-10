@@ -1,13 +1,13 @@
 .products {
     padding: 30px 50px;
     display: flex;
-    justify-content: center;
+    
   
     .left {
       flex: 1;
       position: sticky;
       height: 100%;
-      top: 80px;
+      top: 50px;
   
       .filterItem{
         margin-bottom: 30px;
