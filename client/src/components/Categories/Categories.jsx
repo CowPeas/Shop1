@@ -33,7 +33,7 @@ const Categories = () => {
                     <div className="row">
                     <img src= "https://c.pxhere.com/images/15/b9/514a0c862be62466c4e070480ed1-1657784.jpg!d"  alt="" />
                             <button>
-                                <Link className='link' to="/products/1">(っ◔◡◔)っ ☞🐤  𝐂乇ŕ𝐞ÃĹ𝕤  ☞✊ 😳</Link>
+                                <Link className='link' to="/products/1">🐤𝘊𝘦𝘳𝘦𝘢𝘭𝘴🐤</Link>
                             </button>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Categories = () => {
                     <div className="row">
                     <img src= "https://c.pxhere.com/photos/87/08/frog_cooking_spices_preparation_eat_cook_ingredient_kitchen-1035354.jpg!d"  alt="" />
                             <button>
-                                <Link className='link' to="/products/1">🐉🎅  ⓢｐίⓒ𝔼𝓈  🐧🎄</Link>
+                                <Link className='link' to="/products/1">🐉 𝚂𝚙𝚒𝚌𝚎𝚜 🎄</Link>
                             </button>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Categories = () => {
             <div className="row">
                     <img src= "https://c.pxhere.com/photos/ce/d5/berries_beverage_cocktail_colour_drink_energy_food_fresh-1360775.jpg!d"  alt="" />
                             <button>
-                                <Link className='link' to="/products/1">💝🐝  Ĵｕⓘｃ𝔼  💗💞</Link>
+                                <Link className='link' to="/products/1">🐝 𝙹𝚞𝚒𝚌𝚎𝚜 💗💞</Link>
                             </button>
                     
             </div>

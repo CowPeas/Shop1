@@ -1,8 +1,9 @@
 .navbar{
     height: 80px;
-    justify-content: stretch;
+    justify-content: center;
     background-color: rgb(255, 224, 52);
     overflow: hidden;
+    position: relative;
 
     
     
@@ -12,7 +13,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        justify-items: auto;
+        object-fit: contain;
 
 
 

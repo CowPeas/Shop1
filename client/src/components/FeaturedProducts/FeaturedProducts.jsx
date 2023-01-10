@@ -14,14 +14,14 @@ const FeaturedProducts = ({ type }) => {
 
         <div className="top">
             <h1>{type}🍧products </h1>
-            <p> (っ◔◡◔)っ 🕊  🎀 𝔑𝔶𝔞𝔫𝔶𝔞 𝔫𝔦: 3 = 20, 1 = 5, 3 = 25, 1 =10
-                (っ◔◡◔)っ 🕊  🎀 𝔎𝔦𝔱𝔲𝔫𝔤𝔲𝔲 𝔫𝔦: 3 = 10, 1 = 5, 3 = 20, 1 =10.
+            <p> (っ◔◡◔)っ 🕊  🎀 𝙽𝚢𝚊𝚗𝚢𝚊 𝚗𝚒: 3 = 20, 1 = 5, 3 = 25, 1 =10
+                (っ◔◡◔)っ 🕊  🎀 𝙺𝚒𝚝𝚞𝚗𝚐𝚞𝚞 𝚗𝚒: 3 = 10, 1 = 5, 3 = 20, 1 =10.
              </p>
             
         </div>
         <div className="bottom">
         {error
-          ? "Something went wrong!"
+          ? "Database not connected!"
           : loading
           ? "loading"
           : data?.map((item) => <Card item={item} key={item.id} />)}

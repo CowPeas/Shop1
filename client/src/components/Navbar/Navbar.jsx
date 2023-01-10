@@ -29,22 +29,22 @@ const Navbar = () => {
                     <KeyboardArrowDownIcon />
                 </div>
                 <div className="item">
-                    <Link className='link' to= '/products/1'>𝔙𝔢𝔤𝔢𝔱𝔞𝔟𝔩𝔢𝔰</Link>
+                    <Link className='link' to= '/products/1'>𝚅𝚎𝚐𝚎𝚝𝚊𝚋𝚕𝚎𝚜</Link>
                     </div>
                 <div className="item">
-                    <Link className="link" to= '/products/2'>𝔉𝔯𝔲𝔦𝔱𝔰</Link>
+                    <Link className="link" to= '/products/2'>𝙵𝚛𝚞𝚒𝚝𝚜</Link>
                 </div> 
                 <div className="item">
-                    <Link className="link" to= '/products/3'>ℭ𝔢𝔯𝔢𝔞𝔩𝔰</Link>
+                    <Link className="link" to= '/products/3'>𝙲𝚎𝚛𝚎𝚊𝚕𝚜</Link>
                 </div>
                 <div className="item">
-                    <Link className="link" to= '/products/4'>𝔖𝔭𝔦𝔠𝔢𝔰</Link>
+                    <Link className="link" to= '/products/4'>𝚂𝚙𝚒𝚌𝚎𝚜</Link>
                 </div> 
                 <div className="item">
-                    <Link className="link" to= '/products/5'>𝔍𝔲𝔦𝔠𝔢𝔰</Link>
+                    <Link className="link" to= '/products/5'>𝙹𝚞𝚒𝚌𝚎𝚜</Link>
                 </div> 
                 <div className="item">
-                    <Link className="link" to= '/products/6'>ℑ𝔠𝔢ℭ𝔯𝔢𝔞𝔪</Link>
+                    <Link className="link" to= '/products/6'>𝙸𝚌𝚎𝚌𝚛𝚎𝚊𝚖</Link>
                 </div> 
             </div>
             <div className='center'>
@@ -54,15 +54,15 @@ const Navbar = () => {
                 
                 <div className="item">
                     <div className="text">
-                        <Link className="link" to="/">𝕳𝖔𝖒𝖊𝖕𝖆𝖌𝖊</Link>
+                        <Link className="link" to="/">𝙃𝙤𝙢𝙚𝙥𝙖𝙜𝙚</Link>
                 
-                        <Link className="link" to="/">𝕬𝖇𝖔𝖚𝖙</Link>
+                        <Link className="link" to="/">𝘼𝙗𝙤𝙪𝙩</Link>
                     
                     
-                        <Link className="link" to="/">𝕮𝖔𝖓𝖙𝖆𝖈𝖙</Link>
+                        <Link className="link" to="/">𝘾𝙤𝙣𝙩𝙖𝙘𝙩</Link>
                 
                 
-                        <Link className="link"to="/">𝕾𝖙𝖔𝖗𝖊𝖘</Link>
+                        <Link className="link"to="/">𝙎𝙩𝙤𝙧𝙚𝙨</Link>
                     </div>
                 </div>
                 <div className="icons">
