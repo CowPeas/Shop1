@@ -102,7 +102,7 @@ const Products = () => {
           alt="" 
         />
 
-        <List catId={catId} maxPrice={maxPrice} sort={sort} />
+        <List catId={catId} maxPrice={maxPrice} sort={sort} subCats={selectedSubCats} />
         
       </div>
     </div>
